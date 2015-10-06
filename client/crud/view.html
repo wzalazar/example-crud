@@ -1,0 +1,8 @@
+<template name="view">
+    <div class="container">
+        <div class="link">
+            <a href="{{pathFor 'create'}}">Create sales invoice</a>
+        </div>
+        {{> tabular table=TabularTables.SalesInvoices class="table table-striped table-bordered table-condensed"}}
+    </div>
+</template>

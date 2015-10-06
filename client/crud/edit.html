@@ -1,0 +1,8 @@
+<template name="edit">
+    <div class="container">
+        <div class="link">
+            <a href="{{pathFor 'view'}}">View sales invoice</a>
+        </div>
+        {{> quickForm collection="SalesInvoices" id="salesUpdate" type="update" doc=doc}}
+    </div>
+</template>
